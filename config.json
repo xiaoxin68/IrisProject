@@ -1,0 +1,20 @@
+{
+  "app_name": "CmsProject",
+  "port": "9001",
+  "static_path": "/manage/static",
+  "data_base": {
+    "drive": "mysql",
+    "host": "localhost",
+    "port": "3306",
+    "user": "root",
+    "pwd": "123456",
+    "database": "iris"
+  },
+  "redis": {
+    "network": "tcp",
+    "addr": "106.15.202.182",
+    "port": "6379",
+    "prefix": ""
+  },
+  "mode": "dev"
+}
